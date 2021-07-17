@@ -39,3 +39,45 @@
     width: 200px;
     height: 200px;
 }
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-card{
+    width: 19%;
+    background-color: coral;
+    margin: 5px;
+}
+.post-card h3{
+    text-align: center;
+    justify-content: center;
+}
+.post-card p{
+    text-align: justify;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 10px;
+}
+.users-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-block{
+    width: 48%;
+margin: 10px;
+    background-color: #d7bdb5;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
